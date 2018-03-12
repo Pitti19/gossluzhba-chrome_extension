@@ -15,8 +15,8 @@ class Content extends React.Component {
         return <div className="content-container">
                 <Actions updateVacancies={this}/>
                 { this.renderVacancies() }
-                <span>Средняя по view{this.state.avg_view}</span>
-                <span>Средняя по таблице{this.state.avg}</span>
+                <span className="info-block">Средняя по видимой части: {this.state.avg_view}</span>
+                <span className="info-block">Средняя по таблице: {this.state.avg}</span>
             </div>
     }
     updateVacancies(vacancies) {

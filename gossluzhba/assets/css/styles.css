@@ -259,3 +259,8 @@ h1 {
         opacity: .25;
     }
 }
+
+.info-block {
+    display: block;
+    font-size: 1.3em;
+}
