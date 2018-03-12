@@ -1,0 +1,27 @@
+{
+  "name": "plati_ext",
+  "version": "1.0.0",
+  "description": "Share promocodes for peoples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pckman",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bluebird": "^3.5.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "react": "^16.2.0",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19"
+  }
+}
