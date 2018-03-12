@@ -1,13 +1,13 @@
 {
-  "name": "plati_ext",
+  "name": "gossluzhba helper",
   "version": "1.0.0",
-  "description": "Share promocodes for peoples",
+  "description": "Helper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pckman",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^6.4.1",
